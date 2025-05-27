@@ -2,6 +2,15 @@ body, html {
     height: 100%;
 }
 
+.login-warpper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
 .login-body {
     background: url(images/backbground.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -51,10 +60,23 @@ body, html {
     font-weight: lighter;
     font-size: medium;
     width: 100%;
-    max-width: 550px;
+    max-width: 500px;
 }
 
 .link-forgot-password{
+    display: block;
+    width: 100%;
+    width: 530px;
+    margin: 5px auto;
+    margin-bottom: 15px;
+    text-align: right;
+    font-size: medium;
+}
+
+.link-text {
+    color: #5da7fc;
+    text-decoration: none;
+    font-weight: bold;
 
 }
 
@@ -67,22 +89,42 @@ body, html {
 }
 
 .login-form-button {
-    background-color: #4CAF50; 
+    background-color: #1c84ff;
     border: none;
     color: white;
-    padding: 13px 32px;
+    padding: 15px 48px;
     text-align: center;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: bold;
     cursor: pointer;
     border-radius: 6px;
     width: 100%;
     max-width: 550px;
-
+    transition: 300ms;
 }
 
+.login-form-button:hover {
+    background-color: #4CAF50;
+    color: white;
+    opacity: 70%;
+}
 
 .login-footer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    width: 100%;
+    width: 550px;
+    font-size: medium;
+    margin-top: 30px;
+}
+
+.link-text {
+    color: #5da7fc;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-text:hover {
+    color: #4CAF50;
+    opacity: 70%;
 }
