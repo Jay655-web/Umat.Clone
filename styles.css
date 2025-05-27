@@ -126,5 +126,6 @@ body, html {
 
 .link-text:hover {
     color: #4CAF50;
-    opacity: 70%;
+    opacity: 70%;   
+    text-decoration: underline;
 }
